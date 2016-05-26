@@ -1,0 +1,33 @@
+#searchBox {
+    background-color: rgba(97, 107, 106, 0);
+    border: 3px solid rgba(50, 51, 49, 0.26);
+
+}
+
+
+#searchBtn{
+
+}
+
+@media only screen and (max-width: 320px) {
+    /*for mobiles*/
+    #searchBox{
+       width:100%;
+
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #searchDiv {
+        /*margin: 10% 0 0 17%;*/
+        vertical-align: middle;
+        /* margin: 0 auto; */
+        margin: 10% auto 0 auto;
+    }
+
+    #searchBox{
+        width:700px;
+    }
+
+}
+
